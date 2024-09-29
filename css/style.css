@@ -1,0 +1,35 @@
+body{
+    font-family: Kalam ;
+    background-color: #427bf5;
+    color: #f5be42;
+    font-size: 25pt;
+    
+}
+
+header, footer {
+
+font-family: Overlock ;
+background-color: #75A3A8
+;
+font-size: 45pt;
+border: solid #f54291 10px;
+padding: 25px;
+text-align: center;
+color: #f54291;
+}
+
+#nameNphoto {
+
+text-align: center;
+
+}
+
+#bio {
+
+    text-align: left;
+    border: dashed #2bf5af 5px;
+    padding: 25px; 
+    
+    
+    }
+
