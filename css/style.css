@@ -1,26 +1,27 @@
-body{
-    font-family: Kalam ;
+body {
+    font-family: Kalam;
     background-color: #427bf5;
     color: #f5be42;
     font-size: 25pt;
-    
-}
-h1, h2
-header, footer {
 
-font-family: Overlock ;
-background-color: #75A3A8
-;
-font-size: 45pt;
-border: solid #f56c6b 10px;
-padding: 25px;
-text-align: center;
-color: #f56c6b ;
+}
+
+h1,
+h2 header,
+footer {
+
+    font-family: Overlock;
+    background-color: #75A3A8;
+    font-size: 45pt;
+    border: solid #f56c6b 10px;
+    padding: 25px;
+    text-align: center;
+    color: #f56c6b;
 }
 
 #nameNphoto {
 
-text-align: center;
+    text-align: center;
 
 }
 
@@ -28,37 +29,62 @@ text-align: center;
 
     text-align: left;
     border: dashed #2bf5af 5px;
-    padding: 15px; 
-    
-    
-    }
+    padding: 15px;
 
-    #hobbies{
-        
-        margin-left: 50px;
-        margin-right: 75%;
+
+}
+
+#hobbies {
+
+    margin-left: 50px;
+    margin-right: 75%;
+    
    
-    }
 
-    #hobbies ul{
+}
 
-        background: #f5be42;
-        padding: 10px;
-        list-style-type: circle;
-        list-style-position: inside;
+#hobbies ul {
 
-    }
+    background: #f5be42;
+    padding: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
 
-    #hobbies ul li{
+}
 
-        color: #2bf5af;
+#hobbies ul li {
 
-        background: #427bf5;
+    color: #2bf5af;
+
+    background: #756d5a;
+
+    margin: 10px;
+
+
+
+
+}
+
+
+#gallery{
+
+    border: groove #f56c6b 10px;
+    background-color: #756d5a;
+    padding: 20px;
+    border-radius: 20px;
+   overflow: scroll;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: flex;
+}
+
   
-  margin: 10px;
+    
 
 
 
 
-    }
+
 
