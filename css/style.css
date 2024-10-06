@@ -38,6 +38,7 @@ footer {
 
     margin-left: 50px;
     margin-right: 75%;
+    overflow: hidden;
     
    
 
@@ -80,6 +81,25 @@ footer {
     display: flex;
 }
 
+#lit{
+
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 20px;
+max-height: 800px;
+overflow: scroll;
+padding: 50px;
+text-align: center;
+border: dashed #2bf5af 5px;
+
+
+
+}
+#lit h2{
+
+ font-size: 60pt;
+    text-align: center;
+}
   
     
 
