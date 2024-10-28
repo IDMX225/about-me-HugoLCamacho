@@ -73,12 +73,13 @@ footer {
     background-color: #756d5a;
     padding: 20px;
     border-radius: 20px;
-   overflow: scroll;
+   
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
 
-    display: flex;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 #lit{
@@ -101,6 +102,34 @@ border: dashed #2bf5af 5px;
     text-align: center;
 }
   
+
+@media screen and (min-width: 60em) {
+
+figure {
+
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+   
+
+figcaption{
+
+
+    display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-left: 1rem;
+}
+
+
+
+
+
+
+}
     
 
 
