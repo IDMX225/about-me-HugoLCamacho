@@ -115,6 +115,15 @@ border: dashed #2bf5af 5px;
  font-size: 20pt;
     text-align: center;
 }
+
+
+#formElements {
+
+    font-size: 10pt;
+   
+   
+    
+}
   
 
 @media screen and (min-width: 60em) {
@@ -181,6 +190,7 @@ margin-left: 1rem;
        .videowrapper iframe{
         padding-left: 15%;
         padding-right: 15%;
+        
         width: 1280px;
         height: 720px;
         
@@ -192,10 +202,59 @@ margin-left: 1rem;
 
 #formElements {
 
-
-    display:grid;
-}
     
+    display:grid;
+    margin: 4%;
+    border: groove #f56c6b 10px;
+    padding: 5px;
+    color: #f5be42;
+    background-color: #427bf5;
+    font-size: 20pt;
+   
+    
+}
+
+#contact h2{
+    text-align: center;
+
+
+}
+
+#contact input, #contact textarea, #contact select,#contact button {
+
+    padding: 1%;
+    
+
+   
+}
+#contact button{
+
+
+    margin: 2%;
+}
+
+legend {
+
+    margin: 0%;
+}
+
+#contactForm{
+
+border: solid darkblue;
+margin-right: 7.5%;
+margin-left: 7.5%;
+margin-bottom: 5%;
+
+border: groove #f56c6b 10px;
+background-color: #756d5a;
+
+
+
+}
+    #contact ul{
+
+        list-style: none;
+    }
 
 
 
