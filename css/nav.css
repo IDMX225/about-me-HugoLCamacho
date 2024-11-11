@@ -51,8 +51,8 @@ main {padding: 2vw;}
 
 .logo img{
 
-height: 12.5%;
-width: 12.5%;
+height: 7vw;
+width: 7vw;
 
 }
 
@@ -94,8 +94,7 @@ width: 12.5%;
     
 letter-spacing: 2px;
 font-size: 20pt;
-padding-left: 25px;
-padding-right: 25px;
+padding: 25px;
 
 
 
@@ -116,3 +115,58 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60em) {
+
+    .logo img{
+
+       height: fit-content;
+       width: fit-content;
+        
+        }
+
+   
+
+    .navbar-links {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul{
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
+
+    }
+
+  
+
+
+    .navbar-links a{
+
+    margin-right: 5px;
+        border: groove #f56c6b 5px;
+        padding: 25px;
+        font-size: 20pt;
+
+       
+        
+       
+        
+
+
+    }
+}
+
+
