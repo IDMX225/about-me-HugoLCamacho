@@ -7,14 +7,14 @@ body {
 }
 
 h1,
-h2 header,
+h2,
 footer {
 
     font-family: Overlock;
     background-color: #75A3A8;
-    font-size: 45pt;
-    border: solid #f56c6b 10px;
-    padding: 25px;
+    font-size: 30pt;
+    border: solid #f56c6b 5px;
+    padding: 10px;
     text-align: center;
     color: #f56c6b;
 }
@@ -127,6 +127,21 @@ border: dashed #2bf5af 5px;
   
 
 @media screen and (min-width: 60em) {
+
+
+    h1,
+h2 header,
+footer {
+
+    font-family: Overlock;
+    background-color: #75A3A8;
+    font-size: 40pt;
+    border: solid #f56c6b 10px;
+    padding: 25px;
+    text-align: center;
+    color: #f56c6b;
+}
+
 
 figure {
 
@@ -255,6 +270,7 @@ background-color: #756d5a;
 
         list-style: none;
     }
+
 
 
 

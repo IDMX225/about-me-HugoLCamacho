@@ -27,6 +27,7 @@ main {padding: 2vw;}
     background-color: #75A3A8;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
   
    
 
@@ -76,7 +77,7 @@ width: 12.5%;
     text-align: center;
    
     margin-bottom: 50px;
-    margin-right: 5%;
+   
 }
 
 
@@ -91,10 +92,10 @@ width: 12.5%;
 
     border: groove #f56c6b 5px;
     
-letter-spacing: 4px;
-font-size: 30pt;
-padding-left: 50px;
-padding-right: 50px;
+letter-spacing: 2px;
+font-size: 20pt;
+padding-left: 25px;
+padding-right: 25px;
 
 
 
