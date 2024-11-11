@@ -37,6 +37,32 @@ main {padding: 2vw;}
 
 /* logo */
 
+.logo {
+
+
+   display: flex;
+   align-items: center;
+
+   
+   
+  
+}
+
+.logo img{
+
+height: 12.5%;
+width: 12.5%;
+
+}
+
+.logo h1{
+
+    font-size: .8em;
+}
+
+
+
+
 
 
 /* navigation list */
