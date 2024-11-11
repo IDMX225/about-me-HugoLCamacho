@@ -102,6 +102,12 @@ padding-right: 50px;
 
 }
 
+.navbar-links a:hover, .navbar-links a:focus{
+
+    background-color: #427bf5;
+    color: #f5be42;
+}
+
 
 
 /* 
