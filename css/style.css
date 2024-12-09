@@ -9,7 +9,7 @@ body {
 h1,
 h2, header,
 footer {
-
+   
     font-family: Overlock;
     background-color: #75A3A8;
     font-size: 30pt;
@@ -17,6 +17,11 @@ footer {
     padding: 5px;
     text-align: center;
     color: #f56c6b;
+}
+
+header{
+
+    position: fixed;
 }
 
 .logo img{

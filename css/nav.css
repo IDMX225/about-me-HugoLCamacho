@@ -22,92 +22,47 @@ margin: 0 ;
 main {padding: 2vw;}
 
 
-/* navbar */
-.navbar{
+
+
+nav{
+
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 0;
     background-color: #75A3A8;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-  
-   
+    width: 100%;
 
+}
 
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+nav li{
+margin-bottom: 1em;
+margin-left: 1em;
+
+}
+
+nav a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+text-transform: uppercase;
+
+}
+
+nav a:hover{
+
+    color: black;
 }
 
 
 
-
-/* logo */
-
-.logo {
-
-
-   display: flex;
-   align-items: center;
-
-   
-   
-  
-}
-
-.logo img{
-
-height: 7vw;
-width: 7vw;
-
-}
-
-.logo h1{
-
-    font-size: .8em;
-}
-
-
-
-
-
-
-/* navigation list */
-
-.navbar-links li{
-
-
-
-    list-style: none;
-    display: block;
-    text-align: center;
-   
-    margin-bottom: 50px;
-   
-}
-
-
-
-/*  
- style all a tags in header 
- and then on hover
-*/
-
-.navbar-links a{
-    
-
-    border: groove #f56c6b 5px;
-    
-letter-spacing: 2px;
-font-size: 20pt;
-padding: 25px;
-
-
-
-
-
-}
-
-.navbar-links a:hover, .navbar-links a:focus{
-
-    background-color: #427bf5;
-    color: #f5be42;
-}
 
 
 
@@ -118,56 +73,5 @@ such that no text wraps
 */
 
 @media screen and (min-width: 60em) {
-
-    .logo img{
-
-       height: fit-content;
-       width: fit-content;
-        
-        }
-
-   
-
-    .navbar-links {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .navbar ul{
-    display: flex;
-    justify-content: space-between;
-
-
-
-
-
-
-    }
-
-  
-
-
-    .navbar-links a{
-
-    margin-right: 5px;
-        border: groove #f56c6b 5px;
-        padding: 25px;
-        font-size: 20pt;
-
-       
-        
-       
-        
-
-
-    }
 }
-
 
