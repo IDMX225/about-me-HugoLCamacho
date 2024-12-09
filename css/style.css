@@ -1,41 +1,71 @@
+
 body {
+    
     font-family: Kalam;
     background-color: #427bf5;
     color: #f5be42;
     font-size: 25pt;
+    
+    
 
 }
 
-h1,
-h2, header,
-footer {
-   
-    font-family: Overlock;
-    background-color: #75A3A8;
-    font-size: 30pt;
-    border: solid #f56c6b px;
-    padding: 5px;
-    text-align: center;
-    color: #f56c6b;
-}
+
+
+
+
 
 header{
+   
 
+    
+    color: #f56c6b;
+   
     position: fixed;
+    text-align: center; 
+    
+    width: 100%;
+
+
+
+
+}
+
+
+
+
+.logo {
+
+    
+    border: solid #f56c6b 5px;
+    text-align: center;
+
+    font-size: 10pt;
+    line-height: 0px;
+    margin: 10px;
+    background-color: #f5be42;
+   
+ 
 }
 
 .logo img{
-
-
-    background-color: #f5be42;
-
-    border: solid   #756d5a 10px;
+    background-color: #756d5a;
+    
+    border: 2px solid #2bf5af;
+    margin-top: 10px;
+    height: 48px;
+    width: 48px;
 }
+
+
+
+
 
 
 #nameNphoto {
 
     text-align: center;
+    margin-top: 150px;
 
 }
 
@@ -46,6 +76,17 @@ header{
     padding: 15px;
 
 
+}
+
+h2 {
+
+    font-family: Overlock;
+    background-color: #75A3A8;
+    font-size: 40pt;
+    border: solid #f56c6b 5px;
+    padding: 15px;
+    text-align: center;
+    color: #f56c6b;
 }
 
 #hobbies {
@@ -100,15 +141,18 @@ width: 50%;
     margin-right: 20px;
 
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    
 }
 
 #gallery img{
+    grid-template-columns: 1fr 1fr;
 
 height: 200px;
 width: 150px;
 
 }
+
+#gallery h2{width: 95%;}
 
 #lit{
 
@@ -138,11 +182,71 @@ border: dashed #2bf5af 5px;
    
     
 }
+
+footer {
+    z-index: 999;
+     font-family: Overlock;
+     background-color: #75A3A8;
+     font-size: pt;
+     border: solid #f56c6b 1px;
+     padding: 0%;
+     text-align: center;
+     color: #f56c6b;
+ }
+ 
+
+
+
+
+
+
   /* UNDER HERE IS FOR THE BIGGER SCREENS!!!!!!!!!!!!! */
 @media screen and (min-width: 60em) {
 
 
-    h1, h2, footer {
+    .logo {
+
+    
+        border: solid #f56c6b 10px;
+        text-align: left;
+     
+        font-size: 20pt;
+        line-height: 5px;
+        margin: 20px;
+        background-color: #f5be42;
+       
+
+       
+     
+    }
+    
+    .logo img{
+        
+        background-color: #756d5a;
+        padding: 5px;
+        border: 5px solid #2bf5af;
+        margin-top: 20px;
+        width: 96px;
+        height: 96px;
+        margin-left: 100px;
+       
+    }
+
+    .logo h1{
+
+        margin-left: 50px;
+    }
+
+
+    #nameNphoto {
+
+        
+        margin-top: 200px;
+    
+
+
+
+     h2, footer {
 
     font-family: Overlock;
     background-color: #75A3A8;
@@ -153,18 +257,9 @@ border: dashed #2bf5af 5px;
     color: #f56c6b;
 }
 
-.logo img{
 
 
-    
-}
 
-header{
-
-    padding: 0px;
-    
-
-}
 
 
 figure {
@@ -194,9 +289,9 @@ margin-left: 1rem;
     }
 
 #hobbies {
-
-    margin-left: 50px;
-    margin-right: 60%;
+ text-align: center;
+    
+    padding: 100px;
     overflow: hidden;
     
    

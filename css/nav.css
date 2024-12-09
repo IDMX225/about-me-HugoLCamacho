@@ -9,17 +9,13 @@ html{
  header is at top
 */
 
-body{
 
-box-sizing:  border-box;
-padding: 0;
-margin: 0 ;
-
-}
 
 
 /* add some padding back to rest of page */
-main {padding: 2vw;}
+main {padding: 2vw;
+
+}
 
 
 
@@ -28,10 +24,11 @@ nav{
 
     position: absolute;
     text-align: left;
-    top: 50%;
+    top: 100%;
     left: 0;
     background-color: #75A3A8;
     width: 100%;
+    display: none;
 
 }
 
@@ -61,6 +58,29 @@ nav a:hover{
     color: black;
 }
 
+.nav-toggle:checked ~ nav {
+
+
+display: block;
+
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+position: absolute;
+top: 0;
+left: 0;
+margin-left: 1em;
+
+height: 100%;
+display: flex;
+
+align-items: center;
+
+}
 
 
 
