@@ -14,10 +14,19 @@ footer {
     background-color: #75A3A8;
     font-size: 30pt;
     border: solid #f56c6b px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     color: #f56c6b;
 }
+
+.logo img{
+
+
+    background-color: #f5be42;
+
+    border: solid   #756d5a 10px;
+}
+
 
 #nameNphoto {
 
@@ -124,8 +133,7 @@ border: dashed #2bf5af 5px;
    
     
 }
-  
-
+  /* UNDER HERE IS FOR THE BIGGER SCREENS!!!!!!!!!!!!! */
 @media screen and (min-width: 60em) {
 
 
@@ -138,6 +146,12 @@ border: dashed #2bf5af 5px;
     padding: 15px;
     text-align: center;
     color: #f56c6b;
+}
+
+.logo img{
+
+
+    
 }
 
 header{
