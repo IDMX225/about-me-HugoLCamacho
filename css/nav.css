@@ -4,10 +4,7 @@ html{
 
     scroll-behavior:smooth;
 }
-/* 
- get rid of padding & sizing on body so
- header is at top
-*/
+
 
 
 
@@ -63,11 +60,7 @@ text-transform: uppercase;
 
 }
 
-nav a:hover{
 
-    color: #2bf5af;
-
-}
 
 .nav-toggle:checked ~ nav {
 
@@ -147,6 +140,13 @@ such that no text wraps
     width: 100%;
     
 
+    
+    }
+
+
+    nav a:hover{
+
+        color: #2bf5af;
     
     }
 
