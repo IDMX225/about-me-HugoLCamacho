@@ -24,11 +24,19 @@ nav{
 
     position: absolute;
     text-align: left;
-    top: 100%;
-    left: 0;
-    background-color: #75A3A8;
-    width: 100%;
+    top: 90%;
+    left: 10px;
+   
+    width: 50%;
     display: none;
+
+   
+    background-color: #75A3A8;
+    
+    border: solid #f56c6b 5px;
+    padding: 15px;
+    text-align: left;
+    color: #f56c6b;
 
 }
 
@@ -37,25 +45,28 @@ margin: 0;
 padding: 0;
 list-style: none;
 
+
 }
 
 nav li{
 margin-bottom: 1em;
 margin-left: 1em;
 
+
 }
 
 nav a{
-color: white;
+color: #f56c6b ;
 text-decoration: none;
-font-size: 1.2rem;
+font-size: 20pt;
 text-transform: uppercase;
 
 }
 
 nav a:hover{
 
-    color: black;
+    color: #2bf5af;
+
 }
 
 .nav-toggle:checked ~ nav {
@@ -71,14 +82,18 @@ display: block;
 
 .nav-toggle-label{
 position: absolute;
-top: 0;
-left: 0;
+top: 25%;
+left: 5%;
 margin-left: 1em;
 
-height: 100%;
-display: flex;
 
+display: flex;
+padding: 5px;
 align-items: center;
+text-align: center;
+height: 40px;
+border: 5px solid #2bf5af;
+background-color: #756d5a;
 
 }
 
@@ -99,6 +114,7 @@ position: relative;
 
     content: '';
     position: absolute;
+   
 }
 
 .nav-toggle-label span::before{
@@ -123,5 +139,63 @@ such that no text wraps
 */
 
 @media screen and (min-width: 60em) {
-}
+
+
+    nav {text-align: right;
+    top: 175px;
+ 
+    width: 100%;
+    
+
+    
+    }
+
+    nav ul{display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr  1fr .5fr;}
+
+
+ 
+
+    .nav-toggle-label{
+       
+        top: 20%;
+        left: 80%;
+
+      
+        height: 100px;
+        width: 100px;
+        
+      
+        
+        
+       
+        
+      
+  
+        
+        }
+
+
+
+
+
+
+
+
+        .nav-toggle-label:hover{
+            background-color: #f56c6b;
+            border: 5px solid  #427bf5;;
+
+           
+
+
+        }
+
+    }
+
+ 
+
+
+
 

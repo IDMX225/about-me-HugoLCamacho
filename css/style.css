@@ -24,7 +24,8 @@ header{
     position: fixed;
     text-align: center; 
     
-    width: 100%;
+  width: 100%;
+
 
 
 
@@ -217,6 +218,11 @@ border: dashed #2bf5af 5px;
     
 }
 
+#contact ul{
+
+    list-style: none;
+}
+
 footer {
     z-index: 999;
      font-family: Overlock;
@@ -246,9 +252,12 @@ footer {
      
         font-size: 20pt;
         line-height: 5px;
-        margin: 20px;
+        margin: 5px;
         background-color: #f5be42;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
        
+
 
        
      
@@ -262,16 +271,12 @@ footer {
         margin-top: 20px;
         width: 96px;
         height: 96px;
-        margin-left: 100px;
+        margin-left: 50px;
+        margin-bottom: 20px;
        
     }
 
-    .logo h1{
-
-        margin-left: 50px;
-    }
-
-
+  
     #nameNphoto {
 
         
@@ -419,10 +424,7 @@ background-color: #756d5a;
 
 
 }
-    #contact ul{
-
-        list-style: none;
-    }
+    
 
 
 }
