@@ -1,6 +1,7 @@
 # README
 
 Hugo Camacho
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1d95c343-48b9-438d-85f4-871301fb21c9/deploy-status)](https://app.netlify.com/sites/about-me-hugolcamacho/deploys)
 
 ## The Header and Nav bar
 The header was one of the frist things we worked on. It showed us how to import images to use on the site and
