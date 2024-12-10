@@ -183,6 +183,40 @@ border: dashed #2bf5af 5px;
     
 }
 
+#contactForm{
+
+    border: solid darkblue;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    
+    border: groove #f56c6b 10px;
+    background-color: #756d5a;
+
+
+   
+    
+    font-size: 30pt;
+  
+    padding: 5px;
+    text-align: center;
+    color: #f56c6b;
+}
+
+#formElements {
+
+    
+    display:grid;
+    margin: 5%;
+    border: groove #f56c6b 10px;
+    padding: 10px;
+    color: #f5be42;
+    background-color: #427bf5;
+    font-size: 30pt;
+   
+    
+}
+
 footer {
     z-index: 999;
      font-family: Overlock;
@@ -391,4 +425,4 @@ background-color: #756d5a;
     }
 
 
-
+}
