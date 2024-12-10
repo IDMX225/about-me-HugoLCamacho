@@ -64,7 +64,6 @@ header{
 
 
 #nameNphoto {
-
     text-align: center;
     margin-top: 150px;
 
@@ -140,12 +139,14 @@ width: 50%;
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
 
     
 }
 
 #gallery img{
-    grid-template-columns: 4fr 1fr;
+   
 
 height: 12rem;
 
@@ -280,8 +281,25 @@ footer {
   
     #nameNphoto {
 
+       
         
         margin-top: 250px; }
+
+        #nameNphoto img{
+
+            filter: grayscale(100%);
+            transition:ease-in-out 250ms;
+            border: 10px groove transparent;
+
+        }
+
+        #nameNphoto img:hover{
+
+            filter: grayscale(0%);
+            background-color: #f5be42;
+            border-color: #2bf5af;
+           
+        }
     
 
 
@@ -322,11 +340,25 @@ margin-left: 1rem;
 }
 
 #gallery img{
-    grid-template-columns: 4fr 1fr;
+    
+
+    border: 10px groove transparent;
 
 height: 100%;
 
+
+
 }
+
+#gallery img:hover{
+    transform-origin: 50%;
+transform: scale(1.4);
+border-color: #f56c6b;
+
+
+
+}
+
 
 
 
